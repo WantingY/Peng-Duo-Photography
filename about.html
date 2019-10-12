@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Duo Peng | Photography</title>
+    <link rel="shortcut icon" href="images/camera.png" type="image/x-icon">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- link to my custom css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:700|Roboto:300" rel="stylesheet">
+    <style>
+    body, html {
+        height: 90%;
+    }
+</style>
+</head>
+
+<body>
+<script>
+      var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android)/);
+      if( isMobile != null ) {
+         document.body.className += ' ' + 'mobile';
+      }
+</script>
+
+<!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" id="navstyle">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="home.html"><p>Duo Peng</p></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="project1.html">A gift to the moon</a></li>
+            <li><a href="project2.html">Occupy the Wall Street</a></li>
+            <li><a href="project3.html">Sunset</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- scrolling photo -->
+<div class="photo" id="first">
+</div>
+
+<!-- bio -->
+<div class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 ">
+        <h2><strong>Bio</strong></h2>
+      <p>
+        How people acknowledge another group as an outsider is always based on the subjective experiences they have, and the objective evaluation from a mainstream documentation, which have, or going to be written in the history archive.  Because of the combination of these two ways of knowing, we can hardly deny that it’s rational and effective. However, it is usually not comprehensive.
+      </p>
+      <p>
+        Duo Peng is doing the projects on those ethnic groups, social movements and areas, which are related to his current living environment and culture background, in a documentary style. Instead of using the power of an artist (which is the power could possibly dominating and affecting the audience’s perspective of knowing) to deliver his personal values, Duo is presenting those “insignificant” moments and scenes in a simplistic way, so the audiences could have the space to understand the project with their own knowledge background.
+      </p> 
+      <p>
+        Born in Wuhan of China in 1986, currently study in San Francisco Art Institute for 2nd year Master of Fine Art in photography. Participated in 212 Freestyle Emerging Exhibition in Creative Center for Photography in Hollywood,  “The Spectator in the Dark” in Swell Gallery in San Francisco，and Chinese Phoenix International Photography Biennial. 
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- scrolling photo -->
+<div class="photo" id="second">
+</div>
+
+<!-- form -->
+<div class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 ">
+        <h2><strong>Contact me</strong></h2>
+      </div>
+      <form action="https://formspree.io/wanting.niu@g.austincc.edu" method="POST">
+        <div class="col-lg-6 col-md-12">
+          <input type="text" id="username" name="username" class="form-control" placeholder="Name">
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <input type="text" id="useremail" name="useremail" class="form-control" placeholder="Email">
+        </div>
+        <div class="col-md-12">
+          <textarea placeholder="Say something"></textarea>
+        </div>
+        <div class="col-md-12" id="center">
+          <button name="submit" type="submit" class="button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- scrolling photo -->
+<div class="photo" id="third">
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="social">
+        <a href="https://www.facebook.com">
+            <img src="images/facebook@2x.png" width="24" height="24" alt="Facebook">
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/twitter@2x.png" width="28" height="23" alt="Twitter">
+        </a>
+        <a href="https://www.instagram.com">
+            <img src="images/instagram@2x.png" width="24" height="24" alt="Instagram">
+        </a>
+    </div>
+    <p>©2019 - Sashi | All right reserved</p>
+</footer>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</body>
+
+</html>
